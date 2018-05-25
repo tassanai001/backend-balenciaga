@@ -8,7 +8,7 @@ const favicon = require('serve-favicon');
 const bodyParser = require('body-parser');
 const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
 
-const { schema } = require('./routes/schema');
+const { schema } = require('./routes/graphql/schema');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 
